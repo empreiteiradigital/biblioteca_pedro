@@ -1,0 +1,126 @@
+[26-Oct-2021 21:46:15 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'leonardo-dicaprio-oscars-1994' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[26-Oct-2021 21:46:20 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'leonardo-dicaprio-oscars-1994' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[26-Oct-2021 21:47:09 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'anthony-edwards-lamelo-ball-comparison' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[26-Oct-2021 21:47:12 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'anthony-edwards-lamelo-ball-comparison' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[26-Oct-2021 21:47:14 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'auto-title-loans-online-2' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
+[26-Oct-2021 21:47:43 UTC] Erro de banco de dados do WordPress Unknown column 'wpml_translations.language_code' in 'where clause' para a consulta SELECT   o8I2Ix_posts.* FROM o8I2Ix_posts  WHERE 1=1  AND o8I2Ix_posts.post_name = 'amateurcommunity-sign-up-2' AND o8I2Ix_posts.post_type = 'attachment' AND ( ( ( wpml_translations.language_code = 'pt-br' OR (
+					wpml_translations.language_code = 'pt-br'
+					AND o8I2Ix_posts.post_type IN ( 'e-landing-page','elementor_library' )
+					AND ( ( 
+			( SELECT COUNT(element_id)
+			  FROM o8I2Ix_icl_translations
+			  WHERE trid = wpml_translations.trid
+			  AND language_code = 'pt-br'
+			) = 0
+			 ) OR ( 
+			( SELECT COUNT(element_id)
+				FROM o8I2Ix_icl_translations t2
+				JOIN o8I2Ix_posts p ON p.id = t2.element_id
+				WHERE t2.trid = wpml_translations.trid
+				AND t2.language_code = 'pt-br'
+				AND (
+					p.post_status = 'publish' OR 
+					p.post_type='attachment' AND p.post_status = 'inherit'
+				)
+			) = 0 ) ) 
+				) ) AND o8I2Ix_posts.post_type  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  ) OR o8I2Ix_posts.post_type  NOT  IN ('attachment','wp_block','e-landing-page','elementor_library','jet-smart-filters' )  )  ORDER BY o8I2Ix_posts.post_date DESC  feita por require('wp-blog-header.php'), wp, WP->main, WP->query_posts, WP_Query->query, WP_Query->get_posts
